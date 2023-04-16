@@ -1,0 +1,95 @@
+@mixin sectionText(){
+    @include normalizeLineHeight();
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+@mixin titleBtn(){
+    @include normalizeLineHeight();
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        background-color: #000;
+        color: #fff;
+        margin: 0 auto;
+        width: max-content;
+        padding: 8px 15px;
+        margin-bottom: 35px;
+}
+@mixin textTitle(){
+        @include normalizeLineHeight();
+        font-size: 38px;
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 15px;
+}
+
+.posibilities{
+    padding-bottom: 60px;
+
+    &__title{
+        @include normalizeLineHeight();
+        @include titleBtn();
+    }
+    &__textTitle{
+        @include normalizeLineHeight();
+        font-size: 38px;
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    &__text{
+        @include normalizeLineHeight();
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    &__item{
+        max-width: 320px;
+        height: 280px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+
+        .item__title{
+            font-size: 17px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            color: #ffffff;
+            line-height: 23px;
+            text-align: center;
+            text-transform: uppercase;
+            padding-top: 90px;
+    //        max-width: 265px;
+        }
+    }
+    &__item_1{
+        background: url('../IMG/oforml.svg');
+    }
+    &__item_2{
+        background: url('../IMG/nadyozhn.svg');
+    }
+    &__item_3{
+        background: url('../IMG/prozrCen.svg');
+    }
+    &__item_4{
+        background: url('../IMG/oplata.svg');
+    }
+    &__item_5{
+        background: url('../IMG/obrSvyas.svg');
+    }
+    &__item_6{
+        background: url('../IMG/razdel.svg');
+    }
+
+    .kol{
+        padding: 0 10px;
+    }
+}

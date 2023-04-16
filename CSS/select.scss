@@ -1,0 +1,38 @@
+.select{
+    /*
+    background-image: url("../IMG/selectBCGRND.png");
+    min-height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 56px; */
+
+    background-color: #070716;
+    padding-top: 56px; 
+    
+    &__title{
+        @include titleBtn();
+        background-color: #ffffff;
+        color: #070716;
+    }
+    &__textTitle{
+        @include textTitle();
+        color: #ffffff;
+    }
+    &__text{
+        @include sectionText();
+        color: #fff;
+    }
+    &__UberPhoto{
+        /*
+        background-image: url("../IMG/UberPhoto.png");
+        background-repeat: no-repeat;
+        min-height: 664px;
+        background-position: center;
+        */
+    }
+}
+.UberPhotoImg{
+    max-width: 1949px;
+    width: 100%;
+}

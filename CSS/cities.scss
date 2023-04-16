@@ -1,0 +1,38 @@
+.cities{
+    position: relative;
+
+    background: url("../IMG/world.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 717px;
+    padding-top: 50px;
+
+    &__title{
+        @include titleBtn();
+        background-color: #fff;
+        color: #070716;
+    }
+    &__textTitle{
+        @include textTitle();
+        color: #fff;
+    }
+    &__text{
+        @include sectionText();
+        color: #fff;
+    }
+    &__showCities{
+        position: absolute;
+        bottom: 50px;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        width: max-content;
+        text-transform: uppercase;;
+        color: #1fbad6;
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-decoration: none;
+    }
+}

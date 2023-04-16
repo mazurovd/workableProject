@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProjectBootstrap</title>
+    <link rel="shortcut icon" href="IMG/logo.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="CSS/styles.min.css">
+</head>
+
+<body>
+    <section class="reasonsToWork">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 Benefit-item">
+                    <div class="Benefit-item_iconContain">
+                        <img src="IMG/pay.png" alt="autopay" class="Benefit-item_icon">
+                    </div>
+                    <div class="Benefit-item_title">Никаких наличных, оплата происходит
+                        автоматически</div>
+                    <div class="Benefit-item_text">Стоимость поездки оплачивается пассажиром с привязанной
+                        банковской карты, т.е. нет никаких рисков связанных с перевозкой наличности как для пассажира,
+                        так и для водителя, Вам не нужно искать мелкие деньги для размена.
+                    </div>
+                </div>
+                <div class="col-lg-6 Benefit-item">
+                    <div class="Benefit-item_iconContain">
+                        <img src="IMG/money.png" alt="money" class="Benefit-item_icon">
+                    </div>
+                    <div class="Benefit-item_title">Высокий доход с гарантированными выплатами</div>
+                    <div class="Benefit-item_text">Мы выплачиваем 
+                        заработную плату на личную банковскую карту водителя! Вам не нужно оформлять ООО, ИП, 
+                        платить налоги, подавать декларацию, оплачивать бухгалтерские услуги и ведение банковского счета.
+                    </div>  
+                </div>
+                <div class="col-lg-6 Benefit-item">
+                    <div class="Benefit-item_iconContain">
+                        <img src="IMG/time.png" alt="date" class="Benefit-item_icon">
+                    </div>
+                    <div class="Benefit-item_title">Работа в удобное время, никаких графиков</div>
+                    <div class="Benefit-item_text">Вы просто нажимаете кнопку выйти на линию для начала работы, когда решите закончить, нажимаете выйти с линии. Вы можете подраба-
+                        тывать только утром, вечером, в выходные или праздничные дни! 
+                    </div>  
+                </div>
+                <div class="col-lg-6 Benefit-item">
+                    <div class="Benefit-item_iconContain">
+                        <img src="IMG/bonus.png" alt="commission" class="Benefit-item_icon">
+                    </div>
+                    <div class="Benefit-item_title">Комиссия 8% + БОНУСЫ</div>
+                    <div class="Benefit-item_text">У нас минимальная комиссия и мы выплачиваем бонусы за каждую 
+                        поездку, 
+                        некоторые наши конкуренты оставляют бонусы себе. Мы работаем честно и с нами 
+                        водители зарабатывают больше
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="posibilities">
+        <div class="container">
+            <div class="posibilities__title">Возможности</div>
+            <div class="posibilities__textTitle">мобильное приложение убер</div>
+            <div class="posibilities__text">Сделайте заказ, совершите поездку и оплатите ее стоимость, используя свой мобильный телефон</div>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6 kol">
+                    <div class="posibilities__item posibilities__item_1">
+                        <div class="item__title">оформление заказа одним касанием</div>
+                        <div class="item__plus"></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 kol">
+                    <div class="posibilities__item posibilities__item_2">
+                        <div class="item__title">надежная подача</div>
+                        <div class="item__plus"></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 kol">
+                    <div class="posibilities__item posibilities__item_3">
+                        <div class="item__title">прозрачные цены</div>
+                        <div class="item__plus"></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 kol">
+                    <div class="posibilities__item posibilities__item_4">
+                        <div class="item__title">безналичная оплата</div>
+                        <div class="item__plus"></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 kol">
+                    <div class="posibilities__item posibilities__item_5">
+                        <div class="item__title">обратная связь</div>
+                        <div class="item__plus"></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 kol">
+                    <div class="posibilities__item posibilities__item_6">
+                        <div class="item__title">разделить
+                            стоимость поездки</div>
+                        <div class="item__plus"></div>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </section>
+    <section class="select">
+        <div class="container">
+            <div class="select__title">Возможности</div>
+            <div class="select__textTitle">Выбор - отличная штука!</div>
+            <div class="select__text">Сделайте заказ, совершите поездку и оплатите ее стоимость, используя свой мобильный телефон
+                Сделайте заказ, совершите поездку и оплатите ее стоимость, используя свой мобильный телефон
+                Сделайте заказ, совершите поездку и оплатите ее стоимость, используя свой мобильный телефон
+                Сделайте заказ, совершите поездку и оплатите ее стоимость, используя свой мобильный телефон
+            </div>
+        </div>    
+            <div class="select__UberPhoto"></div>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+.footer {
+  background-color: #fff;
+  padding: 15px 20px 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.footer__line {
+  display: block;
+  max-width: 300px;
+  width: 100%;
+  height: 4px;
+  background-color: #40a8c0;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.footer__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media (max-width: 1400px) {
+  .footer__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+.footer__item {
+  width: 100%;
+  padding: 0 15px;
+}
+@media (max-width: 1400px) {
+  .footer__item {
+    width: auto;
+    margin-bottom: 20px;
+  }
+}
+.footer__item:last-child {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.footer .socNetsArticles__item {
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 6px;
+}
+.footer .socNetsArticles__item:last-child {
+  margin-right: 0;
+}
+
+.InfArticles__top, .InfArticles__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+.InfArticles__bottom {
+  margin-bottom: 20px;
+}
+
+.ArticlesTop__item, .ArticlesBottom__item {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 45px;
+  font-size: 15px;
+  color: #070716;
+}
+.ArticlesTop__item:hover, .ArticlesBottom__item:hover {
+  color: #070716;
+  text-decoration: underline;
+}
+.ArticlesTop__item:last-child, .ArticlesBottom__item:last-child {
+  margin-right: 0;
+}
+
+.ArticlesBottom__item {
+  font-size: 11px;
+  color: #999999;
+  margin-right: 20px;
+}
+.ArticlesBottom__item:last-child {
+  margin-right: 0;
+}
+.ArticlesBottom__item:hover {
+  color: #999999;
+}
+
+.AppArticles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.AppArticles__item {
+  margin-right: 6px;
+  margin-bottom: 6px;
+  text-decoration: none;
+}
+.AppArticles__item:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 1400px) {
+  #mainArticles {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+  }
+}/*# sourceMappingURL=footer.css.map */

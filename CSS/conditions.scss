@@ -1,0 +1,39 @@
+.conditions{
+
+    padding-bottom: 90px;
+
+    &__title{
+        @include titleBtn();
+    }
+    &__textTitle{
+        @include textTitle();
+    }
+    .item{
+        &__title{
+            line-height: 22px;
+            font-size: 22px;
+            margin-bottom: 18px;
+        }
+        &__list{
+            padding-right: 20px;
+        }
+    }
+
+    .condit__listItem{
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        line-height: 24px;
+        margin-bottom: 8px;
+    }
+    .listItem__icon{
+        margin-right: 8px;
+    }
+
+    .requirements__title{
+        color: #ff5656;
+    }
+    .condit__title{
+        color: #1ca8c3;
+    }
+}
